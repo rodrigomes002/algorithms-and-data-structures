@@ -1,6 +1,6 @@
 ﻿namespace Algoritmos.beecrowd.rodrigo
 {
-    public class _1041
+    public class _1061
     {
         public static void CoordenadasDeUmPonto()
         {
