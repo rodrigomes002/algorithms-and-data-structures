@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Algoritmos\Algoritmos.csproj" />
+  </ItemGroup>
+
 </Project>
