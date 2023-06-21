@@ -1,3 +1,4 @@
-﻿using Algoritmos.beecrowed.rodrigo;
+﻿
+using Algoritmos.beecrowed.rodrigo;
 
-_1176.VetorFibonacci();
+_1075.RestoDois();
