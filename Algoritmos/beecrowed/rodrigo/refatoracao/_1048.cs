@@ -4,9 +4,8 @@
     {
         public static decimal CalcularReajusteSalario(decimal salario)
         {
-            decimal reajuste = 0;
             int porcentagem = Porcentagem(salario);
-            reajuste = salario * porcentagem / 100;
+            decimal reajuste = salario * porcentagem / 100;
 
             return reajuste;
         }
