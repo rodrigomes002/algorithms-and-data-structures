@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Algoritmos\Algoritmos.csproj" />
+    <ProjectReference Include="..\algorithms\algorithms.csproj" />
   </ItemGroup>
 
 </Project>

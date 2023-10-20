@@ -1,6 +1,6 @@
-﻿using Algoritmos.beecrowed.rodrigo.refatoracao;
+﻿using algorithms.beecrowed.rodrigo.refatoracao;
 
-namespace Tests.rodrigo
+namespace tests.rodrigo
 {
     public class _1048Test
     {
