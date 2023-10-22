@@ -1,6 +1,6 @@
 ﻿using Algoritmos.beecrowed.rodrigo.refatoracao;
 
-namespace tests.rodrigo
+namespace Tests.rodrigo
 {
     public class _1048Test
     {
