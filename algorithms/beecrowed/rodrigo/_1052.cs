@@ -4,7 +4,7 @@
     {
         public static void Mes()
         {
-            int mes = int.Parse(Console.ReadLine());
+            int mes = int.Parse(Console.ReadLine()!);
             string saida = string.Empty;
 
             switch (mes)

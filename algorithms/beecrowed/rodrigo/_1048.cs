@@ -4,7 +4,7 @@
     {
         public static void CalcularReajuste()
         {
-            double salario = double.Parse(Console.ReadLine());
+            double salario = double.Parse(Console.ReadLine()!);
             double novoSalario, percentual, reajuste;
 
             if (salario <= 400)

@@ -8,7 +8,7 @@
 
             for (int i = 0; i < 5; i++)
             {
-                int numero = int.Parse(Console.ReadLine());
+                int numero = int.Parse(Console.ReadLine()!);
 
                 if (numero % 2 == 0)
                     quantidadePares++;

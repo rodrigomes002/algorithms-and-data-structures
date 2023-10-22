@@ -4,7 +4,7 @@
     {
         public static void ImparesConsecutivos()
         {
-            int numero = int.Parse(Console.ReadLine());
+            int numero = int.Parse(Console.ReadLine()!);
             int count = 6;
 
             while (count > 0)

@@ -10,7 +10,7 @@ namespace algorithms.beecrowed.calebe
     {
         public static void VetorFibonacci()
         {
-            int T, N;
+            // int T, N;
             
         }
     }

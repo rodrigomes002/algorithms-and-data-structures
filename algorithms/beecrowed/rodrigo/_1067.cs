@@ -4,7 +4,7 @@
     {
         public static void Impares()
         {
-            int numero = int.Parse(Console.ReadLine());
+            int numero = int.Parse(Console.ReadLine()!);
 
             for (int i = 0; i <= numero; i++)
             {

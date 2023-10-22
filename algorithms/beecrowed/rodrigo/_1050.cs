@@ -4,7 +4,7 @@
     {
         public static void DDD()
         {
-            int entrada = int.Parse(Console.ReadLine());
+            int entrada = int.Parse(Console.ReadLine()!);
 
             if (entrada == 61)
                 Console.WriteLine("Brasilia");

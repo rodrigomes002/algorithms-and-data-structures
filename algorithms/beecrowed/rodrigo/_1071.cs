@@ -4,8 +4,8 @@
     {
         public static void SomaImparesConsecutivos()
         {
-            int x = int.Parse(Console.ReadLine());
-            int y = int.Parse(Console.ReadLine()) + 1;
+            int x = int.Parse(Console.ReadLine()!);
+            int y = int.Parse(Console.ReadLine()!) + 1;
             int soma = 0;
             for (int i = y; i < x; i++)
             {

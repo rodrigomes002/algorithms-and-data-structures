@@ -8,8 +8,8 @@
             int i = 1;
             while (i <= 6)
             {
-                string numero = Console.ReadLine();
-                if (numero != null)
+                string numero = Console.ReadLine()!;
+                if (numero is not null)
                     numeros.Add(double.Parse(numero));
                 i++;
             }

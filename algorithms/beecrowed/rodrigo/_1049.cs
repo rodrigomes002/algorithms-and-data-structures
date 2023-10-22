@@ -4,9 +4,9 @@
     {
         public static void Animal()
         {
-            string entrada1 = Console.ReadLine();
-            string entrada2 = Console.ReadLine();
-            string entrada3 = Console.ReadLine();
+            string entrada1 = Console.ReadLine()!;
+            string entrada2 = Console.ReadLine()!;
+            string entrada3 = Console.ReadLine()!;
 
             if (entrada1 == "vertebrado")
             {

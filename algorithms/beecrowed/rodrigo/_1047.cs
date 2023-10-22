@@ -4,7 +4,7 @@
     {
         public static void DuracaoEmHorasEMinutos()
         {
-            string[] entrada = Console.ReadLine().Split(' ');
+            string[] entrada = Console.ReadLine()!.Split(' ');
 
             int horaInicial = Convert.ToInt32(entrada[0]);
             int minutoInicial = Convert.ToInt32(entrada[1]);

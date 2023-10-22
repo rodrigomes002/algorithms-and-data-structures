@@ -9,7 +9,7 @@
 
             for (int i = 0; i < 6; i++)
             {
-                double valor = double.Parse(Console.ReadLine());
+                double valor = double.Parse(Console.ReadLine()!);
 
                 if (valor > 0)
                 {

@@ -4,7 +4,7 @@
     {
         public static void Imposto()
         {
-            double renda = double.Parse(Console.ReadLine());
+            double renda = double.Parse(Console.ReadLine()!);
             double impostoAPagar, aliquota;
 
             if (renda <= 2000.00)

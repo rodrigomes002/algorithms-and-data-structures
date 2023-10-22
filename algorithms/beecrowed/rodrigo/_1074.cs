@@ -4,12 +4,12 @@
     {
         public static void ParOuImpar()
         {
-            int n = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine()!);
             var saida = new string[n];
 
             for (int i = 0; i < n; i++)
             {
-                int x = int.Parse(Console.ReadLine());
+                int x = int.Parse(Console.ReadLine()!);
 
                 if (x % 2 == 0)
                     saida[i] += "EVEN ";

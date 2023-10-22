@@ -6,7 +6,7 @@ namespace algorithms.beecrowd.rodrigo
     {
         public static void Multiplo()
         {
-            string[] entrada = Console.ReadLine().Split(' ');
+            string[] entrada = Console.ReadLine()!.Split(' ');
             var a = Convert.ToInt32(entrada[0], CultureInfo.InvariantCulture);
             var b = Convert.ToInt32(entrada[1], CultureInfo.InvariantCulture);
             bool ehMultiplo = false;

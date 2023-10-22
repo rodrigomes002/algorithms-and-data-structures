@@ -6,7 +6,7 @@ namespace algorithms.beecrowd.rodrigo
     {
         public static void CalcularTriangulo()
         {
-            string[] entrada = Console.ReadLine().Split(' ');
+            string[] entrada = Console.ReadLine()!.Split(' ');
             var a = Convert.ToDecimal(entrada[0], CultureInfo.InvariantCulture);
             var b = Convert.ToDecimal(entrada[1], CultureInfo.InvariantCulture);
             var c = Convert.ToDecimal(entrada[2], CultureInfo.InvariantCulture);

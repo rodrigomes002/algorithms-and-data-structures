@@ -4,7 +4,7 @@
     {
         public static void CoordenadasDeUmPonto()
         {
-            string[] entrada = Console.ReadLine().Split(' ');
+            string[] entrada = Console.ReadLine()!.Split(' ');
             decimal x = Convert.ToDecimal(entrada[0]);
             decimal y = Convert.ToDecimal(entrada[1]);
 

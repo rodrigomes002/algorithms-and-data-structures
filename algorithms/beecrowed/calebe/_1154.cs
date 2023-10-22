@@ -11,7 +11,7 @@ namespace algorithms.beecrowed.calebe
     {
         public static void Idades()
         {
-            int idade = int.Parse(Console.ReadLine());
+            int idade = int.Parse(Console.ReadLine()!);
             int quant = 0;
             double soma = 0;
 
@@ -22,7 +22,7 @@ namespace algorithms.beecrowed.calebe
                     quant += 1;
                     soma += idade;
                 }
-                idade = int.Parse(Console.ReadLine());
+                idade = int.Parse(Console.ReadLine()!);
             }
             
             double media = soma / quant;

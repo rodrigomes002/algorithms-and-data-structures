@@ -4,11 +4,11 @@
     {
         public static void SortSimples()
         {
-            string[] entrada = Console.ReadLine().Split(' ');
+            string[] entrada = Console.ReadLine()!.Split(' ');
             int valor1 = int.Parse(entrada[0]);
             int valor2 = int.Parse(entrada[1]);
             int valor3 = int.Parse(entrada[2]);
-            string resultado = null;
+            string? resultado = null;
 
             if (valor1 < valor2 && valor1 < valor3)
             {
