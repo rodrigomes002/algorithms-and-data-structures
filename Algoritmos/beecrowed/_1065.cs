@@ -1,4 +1,4 @@
-﻿namespace algoritmos.beecrowed.rodrigo
+﻿namespace Algoritmos.beecrowed
 {
     public class _1065
     {

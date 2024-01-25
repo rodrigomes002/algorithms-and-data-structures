@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace algoritmos.beecrowd.rodrigo
+namespace Algoritmos.beecrowed
 {
     public class _1044
     {

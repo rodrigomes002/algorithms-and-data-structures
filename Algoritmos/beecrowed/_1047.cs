@@ -1,4 +1,4 @@
-﻿namespace algoritmos.beecrowed.rodrigo
+﻿namespace Algoritmos.beecrowed
 {
     public class _1047
     {
@@ -24,7 +24,7 @@
             }
             else
             {
-                int duracaoMinutosTotal = (24 * 60 - minutosInicial) + minutosFinal;
+                int duracaoMinutosTotal = 24 * 60 - minutosInicial + minutosFinal;
                 duracaoHoras = duracaoMinutosTotal / 60;
                 duracaoMinutos = duracaoMinutosTotal % 60;
             }

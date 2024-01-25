@@ -1,4 +1,4 @@
-﻿namespace algoritmos.beecrowed.rodrigo.refatoracao
+﻿namespace Algoritmos.beecrowed.refatoracao
 {
     public class _1048
     {
