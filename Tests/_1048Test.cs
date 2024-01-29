@@ -1,4 +1,4 @@
-﻿using Algoritmos.beecrowed.rodrigo.refatoracao;
+﻿using Algoritmos.beecrowed.refatoracao;
 
 namespace Tests
 {
