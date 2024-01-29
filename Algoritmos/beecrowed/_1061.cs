@@ -1,6 +1,6 @@
 ﻿namespace Algoritmos.beecrowed
 {
-    public class _1061
+    public class __1061
     {
         public static void TempoDeUmEvento()
         {

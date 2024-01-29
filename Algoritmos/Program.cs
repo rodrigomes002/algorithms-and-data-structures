@@ -5,19 +5,9 @@
 
     for (int i = 0; i < 6; i++)
     {
-
-        if (i < 3)
-        {
-            hourGlassA += i;
-        }
-
         for (int j = 0; j < 6; j++)
         {
-
-            if (i < 3)
-            {
-                hourGlassA += j;
-            }
+            hourGlassA += arr[i][j];
         }
     }
 
