@@ -55,6 +55,40 @@ Array.prototype.removeFirstPosition = function () {
 
 numbers = numbers.removeFirstPosition();
 
-for (let i = 0; i < numbers.length; i++) {
-  console.log(numbers[i]);
+// for (let i = 0; i < numbers.length; i++) {
+//   console.log(numbers[i]);
+// }
+
+function printMatrix(myMatrix) {
+  for (let i = 0; i < myMatrix.length; i++) {
+    for (let j = 0; j < myMatrix[i].length; j++) {
+      console.log(myMatrix[i][j]);
+    }
+  }
+}
+
+let averageTemp = [];
+averageTemp[0] = [1, 2, 3];
+averageTemp[1] = [4, 5, 6];
+
+//printMatrix(averageTemp);
+
+const matrix3x3x3 = [];
+for (let i = 0; i < 3; i++) {
+  matrix3x3x3[i] = [];
+  for (let j = 0; j < 3; j++) {
+    matrix3x3x3[i][j] = [];
+    for (let z = 0; z < 3; z++) {
+      matrix3x3x3[i][j][z] = i + j + z;
+    }
+  }
+}
+
+//percorrer matrix 3x3x3
+for (let i = 0; i < matrix3x3x3.length; i++) {
+  for (let j = 0; j < matrix3x3x3[i].length; j++) {
+    for (let z = 0; z < matrix3x3x3[i][j].length; z++) {
+      matrix3x3x3[i][j][z];
+    }
+  }
 }
