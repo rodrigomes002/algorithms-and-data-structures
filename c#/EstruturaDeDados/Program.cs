@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using EstruturaDeDados;
+
+var pilha = new Pilha(3);
+pilha.Push("primeiro");
+pilha.Push("segundo");
+pilha.Push("terceiro");
+
+Console.WriteLine(pilha.Peek());
